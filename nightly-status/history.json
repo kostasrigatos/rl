@@ -1,24 +1,143 @@
 {
-  "last_updated": "2026-10-08T23:09:15.024737+00:00",
+  "last_updated": "2026-10-09T12:34:11.943467+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 5,
-      "total_workflow_runs": 50,
-      "total_success": 45,
-      "total_failure": 5,
-      "success_rate": 90.0
+      "runs_with_data": 6,
+      "total_workflow_runs": 62,
+      "total_success": 54,
+      "total_failure": 8,
+      "success_rate": 87.1
     },
     "last_30_days": {
-      "days": 12,
-      "runs_with_data": 5,
-      "total_workflow_runs": 50,
-      "total_success": 45,
-      "total_failure": 5,
-      "success_rate": 90.0
+      "days": 13,
+      "runs_with_data": 6,
+      "total_workflow_runs": 62,
+      "total_success": 54,
+      "total_failure": 8,
+      "success_rate": 87.1
     }
   },
   "history": [
+    {
+      "date": "2026-10-09",
+      "orchestrator_ran": true,
+      "orchestrator_status": "queued",
+      "orchestrator_url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288",
+      "orchestrator_run_id": 37929456288,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816352291",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816344718",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816344937",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343261",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-examples.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343395",
+          "display_name": "Examples Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343843",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816345815",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343269",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816344061",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343174",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343524",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816343671",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816345705",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816344518",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113816890503",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113817233832",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/kostasrigatos/rl/actions/runs/37929456288/job/113817625583",
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 17,
+        "success": 9,
+        "failure": 3,
+        "skipped": 5,
+        "other": 0,
+        "success_rate": 75.0
+      }
+    },
     {
       "date": "2026-10-08",
       "orchestrator_ran": true,
